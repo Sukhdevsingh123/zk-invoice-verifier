@@ -1,0 +1,19 @@
+{
+  "name": "zk-invoice-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bundlr-network/client": "^0.11.17",
+    "express": "^4.21.2",
+    "node": "^23.7.0",
+    "nodejs": "^0.0.0",
+    "snarkjs": "^0.7.5"
+  }
+}
