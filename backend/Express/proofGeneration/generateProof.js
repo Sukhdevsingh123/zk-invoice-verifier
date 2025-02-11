@@ -128,9 +128,10 @@ const path = require('path');
 const fs = require('fs');
 
 // Paths to compiled files
-const wasmPath = path.join(__dirname, '../circuits/build/invoiceVerifier_js/invoiceVerifier.wasm');
-const zkeyPath = path.join(__dirname, '../circuits/build/invoiceVerifier.zkey'); // Correct file
-const vKeyPath = path.join(__dirname, '../circuits/build/verification_key.json'); // Correct file
+
+const wasmPath = path.join(__dirname, '../../circuits/build/invoiceVerifier_js/invoiceVerifier.wasm');
+const zkeyPath = path.join(__dirname, '../../circuits/build/invoiceVerifier.zkey'); // Correct file
+const vKeyPath = path.join(__dirname, '../../circuits/build/verification_key.json'); // Correct file
 
 // Check if required files exist
 if (!fs.existsSync(wasmPath)) {
