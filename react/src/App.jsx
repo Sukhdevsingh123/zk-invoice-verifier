@@ -1,6 +1,6 @@
-import CreateInvoice from "./assets/components/CreateInvoice"
+// import CreateInvoice from "./assets/components/CreateInvoice"
 import Navbar from "./assets/components/Navbar"
-
+import InvoiceForm from "./assets/components/InvoiceForm"
 
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
   return (
     <>
      <Navbar/>
-     <CreateInvoice/>
-        
+     {/* <CreateInvoice/> */}
+        <InvoiceForm/>
     </>
   )
 }
